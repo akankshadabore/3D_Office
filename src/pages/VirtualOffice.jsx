@@ -51,19 +51,19 @@ export default function VirtualOffice() {
             initial={{ x: -20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="p-18 glass-morphism rounded-[2rem] max-w-sm pointer-events-auto shadow-2xl"
+            className="p-6 glass-morphism rounded-[2rem] max-w-sm pointer-events-auto shadow-2xl"
           >
-            <div className="flex items-center gap-4">
-              <div className="h-2.5 w-2.5  rounded-full bg-primary-500 animate-pulse shadow-[0_0_12px_rgba(99,102,241,0.8)]" />
-              <h1 className="text-2xl font-black text-white tracking-tight font-display uppercase">Command Center</h1>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-2.5 w-2.5  rounded-full bg-green-500 animate-pulse shadow-[0_0_12px_rgba(99,102,241,0.8)]" />
+              <h1 className="text-xl font-black text-white tracking-tight font-display uppercase">Command Center</h1>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/5 shadow-inner p-12 text-md">
-                <p className="text-[11px] font-black text-slate-500 uppercase tracking-widest mb-2">Active Rooms</p>
-                <p className="text-2xl font-black text-white font-display">4 <span className="text-slate-500 text-lg">/ 4</span></p>
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/5 shadow-inner text-md">
+                <p className="text-xs font-black text-slate-500 uppercase tracking-widest mb-1">Active Rooms</p>
+                <p className="text-xl font-black text-white font-display">4 <span className="text-slate-500 text-lg">/ 4</span></p>
               </div>
-              <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/5 shadow-inner">
+              <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/5 shadow-inner">
                 <p className="text-[11px] font-black text-slate-500 uppercase tracking-widest mb-2">Colleagues</p>
                 <p className="text-2xl font-black text-white font-display">12</p>
               </div>
